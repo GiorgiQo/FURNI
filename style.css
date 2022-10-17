@@ -1,0 +1,390 @@
+x* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    transition: 1s;
+    background-color: rgb(114, 114, 114);
+    width: 100%;
+    height: 283px;
+    z-index: 2;
+   
+}
+
+    
+
+
+.menu {
+    display: flex;
+    /* justify-content: space-between; */
+    /* z-index: 1;    */
+    margin-top: 200px;
+    padding-left: 50px;
+   
+}
+.logo {
+    margin:20px 50px; 
+    color: #DFA667;   
+}
+
+ .ull1  {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    /* margin-top: 200px; */
+    margin-left: 130px  ;
+
+}
+.ull1 a {
+    text-decoration: none;
+    color: white    ;
+    /* margin-top: 200px; */
+}
+.ull1 a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #DFA667;    
+    /* margin-top: 200px; */
+   
+}
+
+.menu_3 {
+    margin: 10px 50px;
+    /* margin-top: 200px; */
+    
+
+}
+
+.number {
+    font-size: 25px;
+    font-weight: 500;
+    color: #dfa667;
+    margin-left: -20px;
+    /* margin-top: 200px; */
+    padding-left: 150px;
+    ;
+    
+    
+    
+}
+.teqst {
+    color: white;
+    /* margin-top: 200px; */
+    margin-left: 150px;
+    margin-bottom: -50px;
+    padding-bottom: 30px;
+    
+}
+.hero {
+    display: table;
+    max-width: 100%;
+    background-image: url(/image/imageedit_1_7258379095.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: -200px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.hero a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.hero_p {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 72px;
+    line-height: 80px;
+    color: white;
+}
+
+.hero_b {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    border:solid 2px white;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    letter-spacing:  2px;
+    padding: 10px;
+    cursor: pointer;
+    /* transition-duration: 0.13s; */
+}
+.hero_b:hover {
+    background-color:#DFA667;
+    opacity:70%;
+    border-color: rgb(255, 255, 255);
+    transition-duration: 0.9s;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+
+}
+
+.box1 {
+    border: solid 2px black;
+    background-color: rgb(236, 235, 235);
+    padding: 50px;
+    box-shadow: 5px 10px  #888888;  
+    
+} 
+ .second_section {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    gap: 50px;
+    padding: 50px;
+    background-image: url(/image/white-concrete-wall.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.dollar {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+
+/* .readmore {
+    color: white;
+    border:solid 2px #000000;
+    background-color: rgb(100, 100, 100);
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+} */
+
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./image/abstract-geometric-wavy-folds-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.image1 {
+   width: 380px;
+   height: 484px;
+   border: solid 2px rgb(128, 138, 128);
+   margin: -20px 50px;
+   
+}
+
+.left {
+    width: 400px;
+    margin: 20px 50px;
+}
+.lorema {
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: white;
+    line-height: 1.5;
+}
+
+.funimal {
+    color: #DFA667;
+}
+
+.satauri {
+    color: white;
+}
+
+.about {
+    color: #DFA667;
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.section4 {
+    
+    background-image: url(./image/abstract-geometric-wavy-folds-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 20px;
+    
+}
+
+
+.projects1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+    margin: 20px 50px;   
+    cursor: pointer;
+}
+
+.pr_l {
+    border: solid 2px black;
+    background-color: #71d476;
+    padding: 110px;
+    text-align: center;
+    
+    
+}
+.pr_l p {
+    margin-top: 40px;
+    color: white;
+}
+
+.pr_h {
+    border: solid 2px black;
+    background-color: rgb(253, 207, 0);
+    padding: 100px;
+    text-align: center;
+    
+}
+.pr_h p {
+    margin-top: 40px;
+    color: white;
+}
+
+.pr_b p {
+    margin-top: 40px;
+    color: white;
+}
+.pr_b {
+    border: solid 2px black;
+    background-color: #0571ec;
+    
+    padding: 110px;
+    text-align: center;
+}
+
+.pr_b:hover {
+    background-color: #3403bd;
+    transition: 1s;
+}
+.pr_h:hover {
+    background-color:#DFA667;
+    transition: 1s;
+}
+.pr_l:hover {
+    background-color: #02ee0e;
+    transition: 1s;
+}
+.H1 {
+    color: #ffffff;
+    padding: 20px 50px;
+}
+
+footer {
+    background-color:#DFA667;
+    margin-top: -20px;
+}
+.folish h1 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.folish p {
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 5px;
+    line-height:  1.5em;
+    color: rgb(0, 0, 0);
+}
+
+.icons ul {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.icons li {
+    list-style: none;
+}
+
+.icons a {
+    text-decoration: none;
+    
+}
+#copy {
+    text-align: center;
+    margin-top: 30px;
+    border: px solid black;
+    background-color: #DFA667;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+    
