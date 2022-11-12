@@ -20,6 +20,7 @@ header {
 
 .menu {
     display: flex;
+    justify-content:center;
     /* justify-content: space-between; */
     /* z-index: 1;    */
     margin-top: 200px;
